@@ -1,0 +1,35 @@
+name: guerreiros_da_tribo
+description: Aplicativo oficial Guerreiros da Tribo - Guarani F.C.
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.1.0 <3.2.0'
+  flutter: ">=3.13.0 <3.14.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: 0.18.1
+  mask_text_input_formatter: 2.8.0
+  shared_preferences: 2.2.2
+  url_launcher: 6.1.14
+  qr_flutter: 4.1.0
+  mailer: 6.0.1
+  flutter_staggered_grid_view: 0.6.2
+  flutter_local_notifications: 16.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/imagens/logo.jpeg
+    - assets/imagens/fundo.jpeg
+    - assets/galeria/
+
+dependency_overrides:
+  mailer: 6.0.1
